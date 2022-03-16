@@ -5,7 +5,7 @@
 * Return 0
 */
 
-int main()
+int putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
