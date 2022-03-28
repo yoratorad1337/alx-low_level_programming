@@ -10,4 +10,8 @@ void reset_to_98(int *n);
 /*don't swap horses in crossing a stream*/
 void swap_int(int *a, int *b);
 
+/*defends itself against the risk of being read*/
+int _strlen(char *s);
+
+
 #endif
