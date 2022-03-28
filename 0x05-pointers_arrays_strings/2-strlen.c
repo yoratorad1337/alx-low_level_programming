@@ -1,5 +1,5 @@
 #include "main.h"
-#include <strings.h>
+#include <string.h>
 
 /*
 
@@ -10,5 +10,6 @@
 int _strlen(char *s)
 {
 	int num;
-	num= strlen(s);
+	num = strlen(s);
+	return num;
 }
