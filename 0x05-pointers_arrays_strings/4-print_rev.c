@@ -5,7 +5,8 @@
 void print_rev(char *s)
 {
 	int num = strlen(s);
-	for (int i = num; i >=0; i--);
+	int i = 0;
+	while (num >= 0)
 		{
 			_putchar("%c",s[i]);
 		}
