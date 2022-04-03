@@ -5,23 +5,26 @@
 *
 *
 */
-void puts2(char *str)
+void puts2(char *s)
 {
-	int i, j, num;
+	int i, len, len1;
+	char tmp;
 
-	i = 0;
+	len = 0;
+	len1 = 0;
 
-	while (str[i] != '\0')
+	while (s[len] != '\0')
 	{
-		i++;
+		len++;
 	}
 
-	num = i;
+	len1 = len - 1;
 
-	for (j = num - 1; j >= 0; j--)
+	for (i = 0; i < len / 2; i++)
 	{
-		*str = str[j];
+		tmp = s[i];
+		s[i] = s[len1];
+		s[len1--] = tmp;
 	}
 
-	_putchar('\n');
 }
