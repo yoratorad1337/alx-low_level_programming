@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
-*
-*
-*
+* rev_string -reverse a string
+* @s: string to be reversed
 */
 void puts2(char *s)
 {
@@ -20,7 +19,7 @@ void puts2(char *s)
 
 	len1 = len - 1;
 
-	for (i = 0; i < len / 2; i++)
+	for (i = 0; i < len; i++)
 	{
 		tmp = s[i];
 		s[i] = s[len1];

@@ -20,4 +20,6 @@ void _puts(char *str);
 /* i have not got a reverse gear */
 void print_rev(char *s);
 
+/* A good enginner thinks in reverse*/
+void rev_string(char *s);
 #endif
