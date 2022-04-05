@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*
-*
-*
+* print array
+* followed by a newline
+* @str
 */
 void print_array(int *a, int n)
 {
@@ -14,6 +14,6 @@ void print_array(int *a, int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		printf("%d%c ",a[i] ,com);
+		printf("%d%c ",a[i] ,comm);
 	}
 }
