@@ -22,4 +22,9 @@ void print_rev(char *s);
 
 /* A good enginner thinks in reverse*/
 void rev_string(char *s);
+
+/*Half the lies thy tell about me aren't true */
+void puts(char *str);
+
+/**/
 #endif
