@@ -26,5 +26,7 @@ void rev_string(char *s);
 /*Half the lies thy tell about me aren't true */
 void puts2(char *str);
 
-/**/
+/*Winning is only half of it. Having fun is the other half*/
+void puts_half(char *str);
+
 #endif
