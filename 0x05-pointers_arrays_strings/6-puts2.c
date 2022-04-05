@@ -7,7 +7,6 @@
 void puts2(char *str)
 {
 	int len, i;
-	char tmp;
 
 	len = 0;
 
@@ -20,8 +19,7 @@ void puts2(char *str)
 	{
 		if (len % 2 == 0)
 		{
-			tmp = str[i];
-			str[i] = tmp;
+			_putchar(str[i]);
 		}
 	}
 }
