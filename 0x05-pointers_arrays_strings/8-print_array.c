@@ -8,12 +8,9 @@
 void print_array(int *a, int n)
 {
 	int i;
-	char comm;
-
-	comm = ' ,';
 
 	for (i = 0; i <= n; i++)
 	{
-		printf("%d%c ",a[i] ,comm);
+		printf("%d, ",a[i]);
 	}
 }
