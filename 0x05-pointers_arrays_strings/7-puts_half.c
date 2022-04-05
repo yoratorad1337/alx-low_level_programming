@@ -25,7 +25,7 @@ void puts_half(char *str)
 				_putchar(str[j]);
 			}
 		}
-		else if (len / 2 != 0)
+		else if (len / 2 != 0 && len / 2 == i)
 		{
 			for (j = i; j <= len; j++)
 			{
@@ -33,4 +33,5 @@ void puts_half(char *str)
 			}
 		}
 	}
+	_putchar('n');
 }
