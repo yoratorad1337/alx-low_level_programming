@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print array
-* followed by a newline
-* @str
+* print array - print a given array followed by a newline
+* @a: pointer to an array
+* @n: number of elemnts
 */
 void print_array(int *a, int n)
 {
@@ -13,11 +13,11 @@ void print_array(int *a, int n)
 	{
 		if (i == 0)
 		{
-			printf("%d",a[i]);
+			printf("%d", a[i]);
 		}
 		else
 		{
-			printf(", %d",a[i]);
+			printf(", %d", a[i]);
 		}
 	}
 	printf("\n");
