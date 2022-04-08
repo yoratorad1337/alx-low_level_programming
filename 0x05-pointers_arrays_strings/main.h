@@ -32,5 +32,8 @@ void puts_half(char *str);
 /*Arrays are non pointers*/
 void print_array(int *a, int n);
 
+/*strcpy*/
+char *_strcpy(char *dest, char *src);
+
 /**/
 #endif
