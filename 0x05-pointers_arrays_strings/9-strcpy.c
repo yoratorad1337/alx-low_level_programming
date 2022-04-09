@@ -1,30 +1,23 @@
-#include "main.h"
-
-/**
-*
-*
-*
-*/
 char *_strcpy(char *dest, char *src)
 {
-	char *tmp = dest, *tmp1 = tmp;
+	char *tmp1, *tmp2;
 
+	tmp1 = dest;
+	tmp2 = tmp1;
 	while (*src !='\0')
 	{
-	*src = *dest;
-	dest++;
-	src++;
+		*dest = *src;
+		src++;
+	        dest++;
 	}
-
-	dest = tmp1;
-
-	while (*tmp != '\0')
-	{
-		*tmp1 = *tmp;
-		tmp1++;
-		tmp++;
-	}
-
 	*dest = '\0';
+	dest = tmp2;
+	while (*tmp1 != '\0')
+	{
+        	*tmp2 = *tmp1;
+	        tmp2++;
+        	tmp1++;
+	}
+
 	return (dest);
 }
