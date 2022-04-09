@@ -5,6 +5,7 @@
 * @dest: pointer to array
 * @src : pinter to array
 * return : dest
+*/
 char *_strcpy(char *dest, char *src)
 {
 	char *tmp1, *tmp2;
