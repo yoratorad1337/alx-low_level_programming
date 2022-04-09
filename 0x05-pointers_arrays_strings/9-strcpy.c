@@ -4,19 +4,19 @@ char *_strcpy(char *dest, char *src)
 
 	tmp1 = dest;
 	tmp2 = tmp1;
-	while (*src !='\0')
+	while (*src != '\0')
 	{
 		*dest = *src;
 		src++;
-	        dest++;
+		dest++;
 	}
 	*dest = '\0';
 	dest = tmp2;
 	while (*tmp1 != '\0')
 	{
-        	*tmp2 = *tmp1;
-	        tmp2++;
-        	tmp1++;
+		*tmp2 = *tmp1;
+		tmp2++;
+		tmp1++;
 	}
 
 	return (dest);
