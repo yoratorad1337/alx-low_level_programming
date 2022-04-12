@@ -9,6 +9,7 @@ int main(void)
 
 	srand( time( 0 ));
 	num = rand();
+	count << num;
 	printf("%i\n", num);
 	return (0);
 }
