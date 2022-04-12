@@ -6,9 +6,11 @@
 int main(void)
 {
 	int num;
+	char str;
 
+	str = "Tada! Congrates";
 	srand( time( 0 ));
 	num = rand();
-	printf("%i\n", num);
+	printf("%s\n", str);
 	return (0);
 }
